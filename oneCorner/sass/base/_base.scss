@@ -1,0 +1,29 @@
+:root {
+    --rotateY: 0;
+    --rotateX: 0;
+
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 50%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+
+    @media only screen and (min-width: 37.5em) {
+        font-size: 62.5%;
+    }
+
+}
+
+body {
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
