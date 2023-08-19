@@ -27,22 +27,37 @@ Fonts are separated by a & */
     --heading-font: "Cinzel", serif;
     --paragraph-font: "Lato", sans-serif;
 
-    /* these colors below should be chosen from among your palette colors above */
+    /* Fluid typography */
+    --step--2: clamp(0.63rem, calc(0.72rem + -0.11vw), 0.69rem);
+    --step--1: clamp(0.83rem, calc(0.83rem + 0.02vw), 0.84rem);
+    --step-0: clamp(1.00rem, calc(0.96rem + 0.22vw), 1.13rem);
+    --step-1: clamp(1.20rem, calc(1.10rem + 0.52vw), 1.50rem);
+    --step-2: clamp(1.44rem, calc(1.25rem + 0.97vw), 2.00rem);
+    --step-3: clamp(1.73rem, calc(1.40rem + 1.63vw), 2.66rem);
+    --step-4: clamp(2.07rem, calc(1.56rem + 2.57vw), 3.55rem);
+    --step-5: clamp(2.49rem, calc(1.71rem + 3.91vw), 4.74rem);
 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
 }
 
 html {
     font-size: 62.5%;
+    box-sizing: border-box;
 }
 
 
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
 body {
-    max-width: 95rem;
+    max-width: 120rem;
     margin: 0 auto;
-    padding: 4em;
-    font-size: 18px;
+    /* padding: 1rem 2rem; */
+    font-size: var(--step-2);
     text-align: center;
     font-family: var(--paragraph-font);
     line-height: 1.5;
@@ -55,28 +70,22 @@ body {
     }
 }
 
-img {
-    display: block;
-    margin: 0 auto;
-    max-width: 300px;
+h1 {
+    font-size: var(--step-4);
 }
-
 
 :where(h2, h3, h4, h5, h6) {
     font-family: var(--heading-font);
     color: var(--bg-text-color);
+    font-size: var(--step-3);
 }
+
+
 
 h2 {
     text-align: center;
     text-decoration: underline wavy var(--headline-color);
     text-underline-offset: 1rem;
-}
-
-hr {
-    height: 3px;
-    margin: 35px 0;
-    background: var(--accent1-color);
 }
 
 header {
@@ -99,6 +108,7 @@ section {
     background: rgba(255, 255, 255, 0.3);
     backdrop-filter: blur(2rem);
     box-shadow: 3px 5px 5rem 5px #e7e7e7c2;
+    padding-block-start: 2rem;
 }
 
 ul {
@@ -106,12 +116,12 @@ ul {
     text-align: left;
     padding-inline: 2rem;
     margin-inline-start: 4rem;
-    
+
     & ::marker {
         content: "⚡️";
     }
-    
-    & li:not(:last-of-type) {
+
+    & li {
         margin-block-end: 1rem;
     }
 }
@@ -188,12 +198,15 @@ p.colored {
     color: var(--default-color);
 }
 
+.client-site-map h2{
+    margin-block-end: 2rem;
+}
 
 .sitemap {
     display: grid;
     justify-content: center;
     gap: 1.5rem;
-
+    
     grid-template-columns: repeat(6, 15%);
     grid-template-rows: repeat(5, 3em);
     grid-template-areas: ". . page1 page1 . ."
@@ -241,14 +254,20 @@ p.colored {
     grid-area: page8;
 }
 
-.client-wireframe {
+.page7, .page8 {
+    margin-block-end: 1rem;
+}
+
+/* .client-wireframe {
     padding-block: 3rem;
 
-}
+} */
 
 .placeholder-box {
     background-color: var(--default-shade-2);
     border-radius: 5px;
     max-width: 30rem;
-    margin: 0 auto;
+    margin: 4rem auto;
 }
+
+
