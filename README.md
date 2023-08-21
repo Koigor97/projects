@@ -12,8 +12,9 @@ ___
 |      Cleints 👫      | Difficulty Level 📊| Progress 📈|  Responsive 📱| Timeframe ⏱️ |
 |:-----------------:|:----------------:|:---------:|:------------:| :------------: |
 |   1Corner     |     Intermediate 🏋🏽‍♂️    |     ✅ Completed    |  ✅ | 1 1/2 weeks
-|   Lynwood University  | Advance 🤼    |  🌀 In-progress    |  ❗️    |    2 months     |
-|        |        |        |       |
+|   Lynwood University  | Advance 🤼    |  🌀 In-progress    |   ✅    |    Pending..    |
+|   GigiCo     |  Intermediate 🏋🏽‍♂️      |  🌀 In-progress      |   ‼️    |    24 hours    |
+|       |       |       |       |
 
 ___
 
