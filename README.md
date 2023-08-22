@@ -9,12 +9,13 @@ The saying  ***practice makes perfect*** is forever true. One cannot be a profes
 > (KoiGenix Web-Lab.co) and we build various Software and Web Applications for our different clients. 😉
 ___
 
-|      Cleints 👫      | Difficulty Level 📊|  Progress 📈   |  Responsive 📱| Timeframe ⏱️ |
-|:-----------------:|:----------------:|:--------------:|:------------:| :------------: |
-|   1Corner     |     Intermediate 🏋🏽‍♂️    |  ✅ Completed   |  ✅ | 1 1/2 weeks
-|   Lynwood University  | Advance 🤼    | 🌀 In-progress |   ✅    |    Pending..    |
-|   GigiCo     |  Intermediate 🏋🏽‍♂️      |  ✅ Completed   |   ‼️    |    24 hours    |
-|       |       |                |       |
+|     Cleints 👫     | Difficulty Level 📊  |  Progress 📈   | Responsive 📱 | Timeframe ⏱️ |
+|:------------------:|:--------------------:|:--------------:|:-------------:|:------------:|
+|      1Corner       | Intermediate 🏋🏽‍♂️ |  ✅ Completed   |       ✅       | 1 1/2 weeks  
+| Lynwood University |      Advance 🤼      | 🌀 In-progress |       ✅       |  Pending..   |
+|       GigiCo       | Intermediate 🏋🏽‍♂️ |  ✅ Completed   |      ‼️       |   24 hours   |
+|   Orion Limited    |     Intermediate     | 🌀 In-progress |      ‼️       |    2 days    |
+|                    |                      |                |               |              |
 
 ___
 
