@@ -58,27 +58,33 @@ send_btn = Button(event_frame, text="Send", width=10, font=BODY_FONT, fg=TEXT_CO
 send_btn.grid(row=4, column=0)
 
 ####################################### OUTPUT SECTION##################################################
-results_label_frame = LabelFrame(event_frame, pady=5, bg=WIN_BG)
+results_label_frame = LabelFrame(event_frame, pady=15, bg=WIN_BG, borderwidth=0)
 results_label_frame.grid()
-results_label_text = Label(results_label_frame, text="Results", pady=5, bg=WIN_BG, fg=TEXT_COLOR, font=("Verdana", 12, "bold"))
-results_label_text.grid(row=5, column=3)
+results_label_text = Label(results_label_frame, text="Results", pady=8, bg=WIN_BG, fg=TEXT_COLOR, font=("Verdana", 12, "bold"))
+results_label_text.grid(row=5, column=1, columnspan=2)
 
 def display_results(row_index, value, results):
     header = ""
-    nutrient_header = ["Qty 🔢", "Unit 🔣", "Food 🥗", "Calories 💪🏽", "Weight ⚖️", "Food Group 🔗"]
-    exercise_header = ["Exercise Name 👟", "MET ⚛️", "Duration ⏱️", "Calories Expended 🔥"]
+    nutrient_header = ["Qty 🔢 | ", "Unit 🔣 | ", "Food 🥗 | ", "Calories 💪🏽 | ", "Weight ⚖️ | ", "Food Group 🔗"]
+    exercise_header = ["Exercise Name 👟  ", "MET ⚛️  ", "Duration ⏱️  ", "Calories Expended 🔥"]
     if value == 1:
-        header += exercise_header
+        header = exercise_header
     if value == 2:
-        header += nutrient_header
+        header = nutrient_header
 
     _render_results_helper(header)
     _render_results_helper(results, the_row=row_index)
 
 
 def _render_results_helper(results, the_row = 6):
+    the_font = HEADERS_FONT
+    text_color = RESULTS_HEADER_COLOR
+    if not the_row == 6:
+        the_font = BODY_FONT
+        text_color = TEXT_COLOR
+
     for i in range(len(results)):
-        quantity_label = Label(results_label_frame, text=results[i], font=HEADERS_FONT, fg=RESULTS_HEADER_COLOR, bg=WIN_BG)
+        quantity_label = Label(results_label_frame, text=results[i], font=the_font, fg=text_color, bg=WIN_BG)
         quantity_label.grid(row=the_row, column=i)
 
 
