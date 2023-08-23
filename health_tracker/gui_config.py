@@ -6,11 +6,12 @@ HEADERS_FONT = ("Ubuntu", 16, "bold")
 BODY_FONT = ("Lato", 16, "normal")
 FRAME_TEXT = ("Verdana", 16, "bold")
 TEXT_COLOR = "gray0"
+RESULTS_HEADER_COLOR = "forest green"
 
 #################################### CREATING THE GUI ####################################
 window = Tk()
 window.title("Orion Fitness 🏋🏽‍♂️")
-window.geometry("800x500")
+window.geometry("800x800")
 window.config(padx=20, pady=20, bg=WIN_BG)
 window.columnconfigure(index=1, weight=3)
 image = PhotoImage(file="fitness-logo.png")
@@ -56,11 +57,29 @@ text.grid(row=3, column=0, columnspan=2)
 send_btn = Button(event_frame, text="Send", width=10, font=BODY_FONT, fg=TEXT_COLOR, highlightthickness=0)
 send_btn.grid(row=4, column=0)
 
-#########################################################################################
+####################################### OUTPUT SECTION##################################################
+results_label_frame = LabelFrame(event_frame, pady=5, bg=WIN_BG)
+results_label_frame.grid()
+results_label_text = Label(results_label_frame, text="Results", pady=5, bg=WIN_BG, fg=TEXT_COLOR, font=("Verdana", 12, "bold"))
+results_label_text.grid(row=5, column=3)
+
+def display_results(row_index, value, results):
+    header = ""
+    nutrient_header = ["Qty 🔢", "Unit 🔣", "Food 🥗", "Calories 💪🏽", "Weight ⚖️", "Food Group 🔗"]
+    exercise_header = ["Exercise Name 👟", "MET ⚛️", "Duration ⏱️", "Calories Expended 🔥"]
+    if value == 1:
+        header += exercise_header
+    if value == 2:
+        header += nutrient_header
+
+    _render_results_helper(header)
+    _render_results_helper(results, the_row=row_index)
 
 
-
-
+def _render_results_helper(results, the_row = 6):
+    for i in range(len(results)):
+        quantity_label = Label(results_label_frame, text=results[i], font=HEADERS_FONT, fg=RESULTS_HEADER_COLOR, bg=WIN_BG)
+        quantity_label.grid(row=the_row, column=i)
 
 
 
