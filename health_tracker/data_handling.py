@@ -28,7 +28,7 @@ class PostData:
         return body
 
 
-    def fetch_data(self, value):
+    def fetch_data(self, value=1):
         the_endpoint = ""
         if value == 1:
             the_endpoint = self.__exercise_endpoint
@@ -41,3 +41,7 @@ class PostData:
         return data
 
 
+    def get_result(self):
+        result = self.fetch_data()["exercises"][0]
+        the_result = [result["name"].title(), result["met"], result["duration_min"], result["nf_calories"]]
+        return the_result
