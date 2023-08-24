@@ -4,8 +4,8 @@ import pandas as pd
 
 class PostData:
     def __init__(self):
-        self.__app_id = "xxxxxxxxxxxxxxx"
-        self.__api_key = "xxxxxxxxxxxxxxxxxxxxxxxx"
+        self.__app_id = "xxxxxxx"
+        self.__api_key = "xxxxxxxx"
         self.__exercise_endpoint = "https://trackapi.nutritionix.com/v2/natural/exercise"
         self.__nutrition_endpoint = "https://trackapi.nutritionix.com/v2/natural/nutrients"
         self.__entry = ""
