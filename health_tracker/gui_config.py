@@ -62,7 +62,7 @@ send_btn.grid(row=6, column=0)
 ####################################### OUTPUT SECTION##################################################
 results_label_frame = LabelFrame(event_frame, pady=15, bg=WIN_BG, borderwidth=0)
 results_label_frame.grid()
-results_label_text = Label(results_label_frame, text="Results", pady=8, bg=WIN_BG, fg=TEXT_COLOR, font=("Verdana", 12, "bold"))
+results_label_text = Label(results_label_frame, text="Results ↓", pady=8, bg=WIN_BG, fg=TEXT_COLOR, font=HEADERS_FONT)
 results_label_text.grid(row=7, column=1, columnspan=2)
 
 def display_results(row_index, value, results):
@@ -102,7 +102,6 @@ age_value = StringVar(value=0)
 age_spinbox = tkinter.Spinbox(spinbox_label_frame, from_=16, to=110, textvariable=age_value, wrap=True,
 width=5, bg=WIN_BG, fg=TEXT_COLOR)
 age_spinbox.grid(row=2, column=1)
-print(age_spinbox.get())
 
 # weight spinbox
 weight_label = Label(spinbox_label_frame, text="Weight (kg):", font=BODY_FONT, fg=TEXT_COLOR, bg=WIN_BG)
@@ -112,7 +111,6 @@ weight_value = StringVar(value=0)
 weight_spinbox = tkinter.Spinbox(spinbox_label_frame, from_=10, to=635, textvariable=weight_value, wrap=True,
 width=5, bg=WIN_BG, fg=TEXT_COLOR)
 weight_spinbox.grid(row=2, column=3)
-print(weight_spinbox.get())
 
 height_label = Label(spinbox_label_frame, text="Height (cm):", font=BODY_FONT, fg=TEXT_COLOR, bg=WIN_BG)
 height_label.grid(row=2, column=4)
@@ -121,11 +119,16 @@ height_value = StringVar(value=0)
 height_spinbox = tkinter.Spinbox(spinbox_label_frame, from_=122, to=272, textvariable=height_value, wrap=True,
 width=5, bg=WIN_BG, fg=TEXT_COLOR)
 height_spinbox.grid(row=2, column=5)
-print(height_spinbox.get())
 
 ###ComboBox section
-gender_label = Label(spinbox_label_frame, text="Gender:", font=BODY_FONT, fg=TEXT_COLOR, bg=WIN_BG)
+gender_frame = LabelFrame(event_frame, bg=WIN_BG, borderwidth=0)
+gender_frame.grid(row=3, column=0)
+
+gender_label = Label(gender_frame, text="Gender:", font=BODY_FONT, fg=TEXT_COLOR, bg=WIN_BG)
 gender_label.grid(row=3, column=0)
 
+gender_combobox = ttk.Combobox(gender_frame, values=["Male", "Female", "Others"])
+gender_combobox.grid(row=3, column=1, columnspan=2)
 
-def get_all_values
+for widget in event_frame.winfo_children():
+    widget.grid_configure(padx=20, pady=10)
