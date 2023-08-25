@@ -1,6 +1,9 @@
 import requests
 import pandas as pd
 import os
+from datetime import datetime
+
+
 
 
 class PostData:
@@ -81,8 +84,6 @@ class PostData:
         return float(self.__height)
 
 
-
-
 class SaveLocally:
     def __init__(self,):
         self.__content = ""
@@ -98,6 +99,8 @@ class SaveLocally:
     def __data_to_dict(self):
         content = self.__get_content()["exercises"][0]
         the_dict = {
+            "date": datetime.now().strftime('%b/%-d/%Y'),
+            "time": datetime.now().strftime('%H:%M:%S'),
             "name": content["name"],
             "met": content["met"],
             "duration-min": content["duration_min"],
@@ -113,10 +116,8 @@ class SaveLocally:
 
         if os.path.exists(file_path):
             data.to_csv(file_path, mode="a", index= False, header= False)
-            print("the file exist")
         else:
-            print("file doesn't exist going to except block now")
             data.to_csv(file_path, index=False)
-            print("created a new file")
+
 
 
