@@ -11,9 +11,9 @@ def send_btn_helper():
                        weight=weight_spinbox.get(), height=height_spinbox.get())
     local_storage.set_result(post_data.fetch_data())
     display_results(row_index=9, value=1, results=post_data.get_result())
-    local_storage.save_data()
 
 send_btn.config(command=send_btn_helper)
+save_local_btn.config(command=local_storage.save_data)
 window.mainloop()
 
 # TESTING TO LOG THE DATA TO GOOGLE SHEET [test was a fail - received a 500 Server Error]
