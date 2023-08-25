@@ -52,7 +52,7 @@ text_field_label = Label(text_field_frame, text="Enter the activity: ", font=BOD
 text_field_label.grid(row=4, column=0, sticky="w")
 
 text = Text(text_field_frame, width=30, height=5, font=BODY_FONT, fg=TEXT_COLOR, bg="gray95", padx=5, pady=5)
-text.insert(1.0, "type in the activity")
+text.insert(1.0, "Ran 6 km")
 text.grid(row=5, column=0, columnspan=2)
 
 # button section
@@ -99,7 +99,7 @@ age_label = Label(spinbox_label_frame, text="Age:", font=BODY_FONT, fg=TEXT_COLO
 age_label.grid(row=2, column=0)
 
 age_value = StringVar(value=0)
-age_spinbox = tkinter.Spinbox(spinbox_label_frame, from_=16, to=110, textvariable=age_value, wrap=True,
+age_spinbox = tkinter.Spinbox(spinbox_label_frame, from_=35, to=110, textvariable=age_value, wrap=True,
 width=5, bg=WIN_BG, fg=TEXT_COLOR)
 age_spinbox.grid(row=2, column=1)
 age_spinbox.grid_configure(padx=5)
@@ -109,7 +109,7 @@ weight_label = Label(spinbox_label_frame, text="Weight (kg):", font=BODY_FONT, f
 weight_label.grid(row=2, column=2)
 
 weight_value = StringVar(value=0)
-weight_spinbox = tkinter.Spinbox(spinbox_label_frame, from_=10, to=635, textvariable=weight_value, wrap=True,
+weight_spinbox = tkinter.Spinbox(spinbox_label_frame, from_=70, to=635, textvariable=weight_value, wrap=True,
 width=5, bg=WIN_BG, fg=TEXT_COLOR)
 weight_spinbox.grid(row=2, column=3)
 weight_spinbox.grid_configure(padx=5)
@@ -118,7 +118,7 @@ height_label = Label(spinbox_label_frame, text="Height (cm):", font=BODY_FONT, f
 height_label.grid(row=2, column=4)
 
 height_value = StringVar(value=0)
-height_spinbox = tkinter.Spinbox(spinbox_label_frame, from_=122, to=272, textvariable=height_value, wrap=True,
+height_spinbox = tkinter.Spinbox(spinbox_label_frame, from_=175, to=272, textvariable=height_value, wrap=True,
 width=5, bg=WIN_BG, fg=TEXT_COLOR)
 height_spinbox.grid(row=2, column=5)
 height_spinbox.grid_configure(padx=5)
