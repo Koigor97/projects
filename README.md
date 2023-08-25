@@ -14,7 +14,7 @@ ___
 |      1Corner       | Intermediate 🏋🏽‍♂️ |  ✅ Completed   |       ✅       | 1 1/2 weeks  
 | Lynwood University |      Advance 🤼      | 🌀 In-progress |       ✅       |  Pending..   |
 |       GigiCo       | Intermediate 🏋🏽‍♂️ |  ✅ Completed   |      ‼️       |   24 hours   |
-|   Orion Limited    |     Intermediate     | 🌀 In-progress |      ‼️       |    2 days    |
+|   Orion Limited    |     Intermediate     |  ✅ Completed   |      ‼️       |    2 days    |
 |                    |                      |                |               |              |
 
 ___
