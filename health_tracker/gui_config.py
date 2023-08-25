@@ -52,7 +52,7 @@ text_field_label = Label(text_field_frame, text="Enter the activity: ", font=BOD
 text_field_label.grid(row=4, column=0, sticky="w")
 
 text = Text(text_field_frame, width=30, height=5, font=BODY_FONT, fg=TEXT_COLOR, bg="gray95", padx=5, pady=5)
-text.insert(1.0, "Ran 6 km")
+text.insert(1.0, "Type in the workout you did....")
 text.grid(row=5, column=0, columnspan=2)
 
 # button section
@@ -81,7 +81,7 @@ def display_results(row_index, value, results):
 def _render_results_helper(results, the_row = 8):
     the_font = HEADERS_FONT
     text_color = RESULTS_HEADER_COLOR
-    if not the_row == 9:
+    if not the_row == 8:
         the_font = BODY_FONT
         text_color = TEXT_COLOR
 
