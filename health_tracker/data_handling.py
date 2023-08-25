@@ -5,7 +5,7 @@ import pandas as pd
 class PostData:
     def __init__(self):
         self.__app_id = "xxxxxxx"
-        self.__api_key = "xxxxxxxxxxx"
+        self.__api_key = "xxxxxxx"
         self.__exercise_endpoint = "https://trackapi.nutritionix.com/v2/natural/exercise"
         self.__nutrition_endpoint = "https://trackapi.nutritionix.com/v2/natural/nutrients"
         self.__entry = ""
@@ -81,10 +81,11 @@ class PostData:
 
 
 
-class SaveLocally:
-    def __init__(self):
-        self.__content = ""
 
+
+class SaveLocally:
+    def __init__(self,):
+        self.__content = ""
 
     def set_result(self, result):
         self.__content = result
@@ -94,5 +95,19 @@ class SaveLocally:
         return self.__content
 
 
+    def __data_to_dict(self):
+        content = self.__get_content()["exercises"][0]
+        the_dict = {
+            "name": content["name"],
+            "met": content["met"],
+            "duration-min": content["duration_min"],
+            "nf-calories": content["nf_calories"]
+        }
+        content_list = [the_dict]
+        return content_list
+
+
     def save_data(self):
-        pass
+        data = pd.DataFrame(self.__data_to_dict())
+        print(data)
+
