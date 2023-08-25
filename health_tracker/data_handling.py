@@ -1,5 +1,6 @@
 import requests
 import pandas as pd
+import os
 
 
 class PostData:
@@ -108,6 +109,15 @@ class SaveLocally:
 
 
     def save_data(self):
+        file_path = "local_storage.csv"
         data = pd.DataFrame(self.__data_to_dict())
-        print(data)
+
+        if os.path.exists(file_path):
+            data.to_csv(file_path, mode="a", index= False, header= False)
+            print("the file exist")
+        else:
+            print("file doesn't exist going to except block now")
+            data.to_csv(file_path, index=False)
+            print("created a new file")
+
 
