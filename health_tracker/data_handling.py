@@ -83,7 +83,6 @@ class PostData:
 
 
 
-
 class SaveLocally:
     def __init__(self,):
         self.__content = ""
