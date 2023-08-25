@@ -5,7 +5,7 @@ import pandas as pd
 class PostData:
     def __init__(self):
         self.__app_id = "xxxxxxx"
-        self.__api_key = "xxxxxxxx"
+        self.__api_key = "xxxxxxxxxxx"
         self.__exercise_endpoint = "https://trackapi.nutritionix.com/v2/natural/exercise"
         self.__nutrition_endpoint = "https://trackapi.nutritionix.com/v2/natural/nutrients"
         self.__entry = ""
@@ -78,3 +78,21 @@ class PostData:
 
     def __get_height(self):
         return float(self.__height)
+
+
+
+class SaveLocally:
+    def __init__(self):
+        self.__content = ""
+
+
+    def set_result(self, result):
+        self.__content = result
+
+
+    def __get_content(self):
+        return self.__content
+
+
+    def save_data(self):
+        pass
