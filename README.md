@@ -9,13 +9,13 @@ The saying  ***practice makes perfect*** is forever true. One cannot be a profes
 > (KoiGenix Web-Lab.co) and we build various Software and Web Applications for our different clients. 😉
 ___
 
-|      Cleints 👫       |  Difficulty Level 📊   |  Progress 📈   | Responsive 📱 | Timeframe ⏱️ |
-|:---------------------:|:----------------------:|:--------------:|:-------------:|:------------:|
-|        1Corner        |  Intermediate 🏋🏽‍♂️  |  ✅ Completed   |       ✅       | 1 1/2 weeks  
-|  Lynwood University   |       Advance 🤼       | 🌀 In-progress |       ✅       |  Pending..   |
-|        GigiCo         |  Intermediate 🏋🏽‍♂️  |  ✅ Completed   |      ‼️       |   24 hours   |
-|     Orion Limited     | Intermediate  🏋🏽‍♂️  |  ✅ Completed   |      ‼️       |    2 days    |
-|  |  |           |          |     |
+|     Cleints 👫     |  Difficulty Level 📊  |  Progress 📈   | Responsive 📱 | Timeframe ⏱️ |
+|:------------------:|:---------------------:|:--------------:|:-------------:|:------------:|
+|      1Corner       | Intermediate 🏋🏽‍♂️  |  ✅ Completed   |       ✅       | 1 1/2 weeks  
+| Lynwood University |      Advance 🤼       | 🌀 In-progress |       ✅       |  Pending..   |
+|       GigiCo       | Intermediate 🏋🏽‍♂️  |  ✅ Completed   |      ‼️       |   24 hours   |
+|   Orion Limited    | Intermediate  🏋🏽‍♂️ |  ✅ Completed   |      ‼️       |    2 days    |
+|     1CornerV2      |     Advance 🤼‍♂️     |     🌀 In-progress       |      ⁉️       |   2 months   |
 
 ___
 
@@ -64,4 +64,9 @@ as CSV file.
 ![Health Tracker screenshot](project_images/orion.webp)
 ___
 
+## 1Corner Restaurant v2
+1Corner restaurant in the years have set quite the good reputation for itself and have rise in the ranks of 
+top restaurants in the country. It's a franchise with different branch in different parts of the country.
+So, the owner wanted their online platform to match their street cred. She wants us to create a whole the new version of 
+the 1Corner restaurant website.
 
