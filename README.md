@@ -15,7 +15,7 @@ ___
 |  Lynwood University   |       Advance 🤼       | 🌀 In-progress |       ✅       |  Pending..   |
 |        GigiCo         |  Intermediate 🏋🏽‍♂️  |  ✅ Completed   |      ‼️       |   24 hours   |
 |     Orion Limited     | Intermediate  🏋🏽‍♂️  |  ✅ Completed   |      ‼️       |    2 days    |
-| GlenVille Real Estate | Intermediate+  🧗🏼‍♀️ |    🌀 In-progress           |       ‼️         |   24 hours   |
+|  |  |           |          |     |
 
 ___
 
@@ -64,4 +64,4 @@ as CSV file.
 ![Health Tracker screenshot](project_images/orion.webp)
 ___
 
-## GlenVille Real-Estate.co 🏡
+
