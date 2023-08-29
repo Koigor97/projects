@@ -268,14 +268,30 @@ p.colored {
 } */
 
 .placeholder-box {
-    background-color: var(--default-shade-2);
     border-radius: 5px;
-    max-width: 30rem;
+    max-width: 60%;
     margin: 4rem auto;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) 40%;
+    grid-template-areas: "desktop desktop tablet";
+    gap: 2rem;
 
     & img {
         width: 100%;
     }
+
+    .home {
+        grid-area: desktop;
+    }
+
+    .home__tv {
+        grid-area: tablet;
+    }
+
+    /* .wireframe {
+        display: flex;
+    } */
 }
 
 
