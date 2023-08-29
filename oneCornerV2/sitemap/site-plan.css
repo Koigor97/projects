@@ -5,9 +5,9 @@ Fonts are separated by a & */
 
 :root {
     /* Project colors */
-    --primary-color: #800020;
-    --secondary-color: #FFF0E0;
-    --tertiary-color: #13325B;
+    --primary-color: #002D13;
+    --secondary-color: #FBB822;
+    --tertiary-color: #005739;
     --default-color: #ffffff;
 
     --primary-shade-1: #912A44;
