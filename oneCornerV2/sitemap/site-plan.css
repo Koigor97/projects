@@ -198,6 +198,11 @@ p.colored {
     color: var(--default-color);
 }
 
+.client-logo img {
+
+    margin-block: 1em;
+}
+
 .client-site-map h2{
     margin-block-end: 2rem;
 }
