@@ -69,5 +69,8 @@ ___
 top restaurants in the country. It's a franchise with different branch in different parts of the country.
 So, Rachel Jones (owner) wanted their online platform to match their street cred. She wants us to create a whole the new version of the 1Corner restaurant website. We are still on the design pattern, the overall layout and the features of the website.  
 
-##### August/30/2023:
-The design team have completed the Homepage wireframe for the Desktop version. The following viewport would be completed later in the week, the logo included. 
+##### August/29/2023:
+The design team have completed the Homepage wireframe for the Desktop version. The following viewport would be completed later in the week, the logo included.   
+
+##### August/30/2023:  
+The design team have completed all viewports for the 1Corner Home page. The development team (us) will commence building the home page soonest. After that is completed, we'll proceed with Menu page.
