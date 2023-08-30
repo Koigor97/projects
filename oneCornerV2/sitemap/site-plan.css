@@ -273,8 +273,8 @@ p.colored {
     margin: 4rem auto;
 
     display: grid;
-    grid-template-columns: repeat(2, 1fr) 40%;
-    grid-template-areas: "desktop desktop tablet";
+    grid-template-columns: repeat(2, 1fr) 30% 20%;
+    grid-template-areas: "desktop desktop tablet phone";
     gap: 2rem;
 
     & img {
@@ -289,6 +289,9 @@ p.colored {
         grid-area: tablet;
     }
 
+    .home__pv {
+        grid-area: phone;
+    }
     /* .wireframe {
         display: flex;
     } */
