@@ -75,3 +75,10 @@ The design team have completed the Homepage wireframe for the Desktop version. T
 
 ##### August/30/2023:  
 The design team have completed all viewports for the 1Corner Home page. The development team (us) will commence building the home page soonest. After that is completed, we'll proceed with Menu page.
+
+##### September/01/2023:
+The 1corner project would move to Github projects. Meaning team discussion, milestone, pull requests and issues would be discussed and tracked in Github projects. 
+
+> [!NOTE]  
+> Remember, this is a Company I made as a way to keep me motivated and learn how to properly use Github
+> and build projects. It's a one man thing 😀. 
