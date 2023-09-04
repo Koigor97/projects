@@ -15,7 +15,7 @@ ___
 | Lynwood University |      Advance 🤼       | 🌀 In-progress |       ✅       |  Pending..   |
 |       GigiCo       | Intermediate 🏋🏽‍♂️  |  ✅ Completed   |      ‼️       |   24 hours   |
 |   Orion Limited    | Intermediate  🏋🏽‍♂️ |  ✅ Completed   |      ‼️       |    2 days    |
-|     1CornerV2      |     Advance 🤼‍♂️     |     🌀 In-progress       |      ⁉️       |   3 months   |
+|    Per day      |     Advance 🤼‍♂️     |     🌀 Pending...       |      ✅       |   Pending..   |
 
 ___
 
@@ -64,21 +64,3 @@ as CSV file.
 ![Health Tracker screenshot](project_images/orion.webp)
 ___
 
-## <img src="./oneCornerV2/sitemap/images/1Corner-logo.webp" alt="1Corner logo" width="80"> 1Corner Restaurant v2
-##### [***Site-plan for 1Corner remodel 👈🏾***](https://koigor97.github.io/projects/oneCornerV2/sitemap)
-1Corner restaurant in the years have set quite the good reputation for itself and have rise in the ranks of 
-top restaurants in the country. It's a franchise with different branch in different parts of the country.
-So, Rachel Jones (owner) wanted their online platform to match their street cred. She wants us to create a whole the new version of the 1Corner restaurant website. We are still on the design pattern, the overall layout and the features of the website.  
-
-##### August/29/2023:
-The design team have completed the Homepage wireframe for the Desktop version. The following viewport would be completed later in the week, the logo included.   
-
-##### August/30/2023:  
-The design team have completed all viewports for the 1Corner Home page. The development team (us) will commence building the home page soonest. After that is completed, we'll proceed with Menu page.
-
-##### September/01/2023:
-The 1corner project would move to Github projects. Meaning team discussion, milestone, pull requests and issues would be discussed and tracked in Github projects. 
-
-> [!NOTE]  
-> Remember, this is a Company I made as a way to keep me motivated and learn how to properly use Github
-> and build projects. It's a one man thing 😀. 
