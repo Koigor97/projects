@@ -17,6 +17,7 @@ The saying **_practice makes perfect_** is forever true. One cannot be a profess
 |       GigiCo       |   Intermediate 🏋🏽‍♂️   |  ✅ Completed  |      ‼️       |   24 hours   |
 |   Orion Limited    |   Intermediate 🏋🏽‍♂️   |  ✅ Completed  |      ‼️       |    2 days    |
 |      Per day       |     Advance 🤼‍♂️      | 🌀 Pending...  |      ✅       |  Pending..   |
+|   TaskMaster Co.   |   Intermediate 🏋🏽‍♂️   | 🌀 Pending...  |      ✅       |   1 weeks    |
 
 ---
 
@@ -43,7 +44,8 @@ the messages.
 The application runs in the cloud (PythonAnywhere cloud services).
 
 <img src="project_images/weather_update.webp" alt="Weather update SMS screenshot on phone" width="300" height="600" style="margin-inline: 17rem">
-___
+
+---
 
 ## Orion Health Tracker 💪🏽
 
@@ -68,3 +70,7 @@ as CSV file.
 ![Health Tracker screenshot](project_images/orion.webp)
 
 ---
+
+## Taskmaster Co.
+
+Taskmaster Co CEO contacted my company to build a todo list application for it employees. I was giving the job. The purpose of the TaskMaster Todo App is to provide an efficient and user-friendly task management solution for employees. It enables users to organize, prioritize, and keep track of their daily tasks and assignments. With a clean and intuitive interface, TaskMaster makes it easy to add, edit, and manage tasks, ensuring users can stay on top of their work and boost productivity. The app's simplicity, coupled with the power of HTML, CSS, and JavaScript, empowers employees to master their daily workflow and accomplish their tasks effectively and effortlessly. TaskMaster aims to streamline task management and contribute to better time management and organization in the workplace.
