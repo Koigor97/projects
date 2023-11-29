@@ -29,7 +29,7 @@ The owner of 1Corner (pronounced One-Corner) restaurant, Ms. Rachel Jones contac
 
 ---
 
-## [Lynnwood Business Chamber](https://koigor97.github.io/projects/oneCorner)
+## [Lynnwood Business Chamber](https://koigor97.github.io/projects/chamber)
 
 ![Lynnwood Business Chamber landing page image](project_images/chamber-screenshot.webp)
 
