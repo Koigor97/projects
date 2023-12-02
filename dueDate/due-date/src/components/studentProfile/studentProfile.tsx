@@ -1,6 +1,10 @@
 import React, { FC, ReactElement } from 'react';
 import { Avatar, Box, Typography } from '@mui/material';
+import PropTypes from 'prop-types';
 
+interface IProfile {
+  name: string;
+}
 // generating a random year and id
 // const generateRandomIdAndYear = (): object => {
 //   const academicYear: string[] = ['Freshman', 'Sophmore', 'Senior'];
@@ -22,7 +26,9 @@ import { Avatar, Box, Typography } from '@mui/material';
 
 // const randomData = generateRandomIdAndYear();
 
-export const Profile: FC = (): ReactElement => {
+export const Profile: FC<IProfile> = (props): ReactElement => {
+  const { name = 'Sam' } = props;
+
   return (
     <Box
       sx={{
@@ -41,23 +47,25 @@ export const Profile: FC = (): ReactElement => {
         }}
       >
         <Typography variant="h4" color="text.primary">
-          S
+          {`${name.substring(0, 1).toUpperCase()}`}
         </Typography>
       </Avatar>
-      <InfoCard />
-    </Box>
-  );
-};
-
-const InfoCard: FC = (): ReactElement => {
-  return (
-    <>
       <Typography variant="h6" color="text.primary">
-        Welcome, Sam
+        {`Welcome, ${name}`}
       </Typography>
       <Typography variant="body1" color="text.primary">
         Student ID: 3499064 - Student Year: Freshman
       </Typography>
-    </>
+    </Box>
   );
 };
+
+Profile.propTypes = {
+  name: PropTypes.string.isRequired,
+};
+
+{
+  /* <svg class="feature__icon">
+  <use xlink:href="img/sprite.svg#icon-global"></use>
+</svg>; */
+}
