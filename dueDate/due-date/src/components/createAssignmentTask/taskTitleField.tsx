@@ -21,4 +21,7 @@ export const TaskTitleField: FC<ITextField> = (props): ReactElement => {
   );
 };
 
-// TaskTitleField;
+TaskTitleField.propTypes = {
+  onChange: PropTypes.func,
+  disabled: PropTypes.bool,
+};
