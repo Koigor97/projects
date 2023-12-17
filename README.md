@@ -16,7 +16,7 @@ The saying **_practice makes perfect_** is forever true. One cannot be a profess
 | Lynwood Chamber |   Intermediate 🏋🏽‍♂️   | ✅ Completed  |      ✅       |   semester   |
 |     GigiCo      |   Intermediate 🏋🏽‍♂️   | ✅ Completed  |      ‼️       |   24 hours   |
 |  Orion Limited  |   Intermediate 🏋🏽‍♂️   | ✅ Completed  |      ‼️       |    2 days    |
-|     Per day     |     Advance 🤼‍♂️      | 🌀 Pending... |      ✅       |  Pending..   |
-|    Due Date     |     Advance 🤼      | 🌀 Pending... |      📵       |    1 week    |
+|    Due Date     |     Advance 🤼      | ✅ Completed  |      📵       |    1 week    |
+|  PartyHouseHub  |       Advance       | 🌀 Pending... |      ✅       |    1 week    |
 
 ---
