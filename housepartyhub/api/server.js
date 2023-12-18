@@ -5,7 +5,7 @@ const app = require("./app");
 // accessing the .env file
 dotenv.config({ path: "./config.env" });
 // getting the port number from the env file
-const port = process.env.PORT || 3000;
+const port = process.env.PORT;
 // retrieving the database link and replacing the password
 const DB = process.env.MONGO_DB.replace(
   "<PASSWORD>",
