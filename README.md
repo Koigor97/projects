@@ -19,5 +19,6 @@ The saying **_practice makes perfect_** is forever true. One cannot be a profess
 |    Due Date     |     Advance 🤼      | 🌀 Pending... |      📵       |    ......    |
 |  PartyHouseHub  |       Advance       | 🌀 Pending... |      ✅       |   .......    |
 |   OutSmart-Me   |   Intermediate 🏋🏽‍♂️   | ✅ Completed  |      📵       |    2 days    |
+| BuyEverything?  |     Beginner 🏃🏽‍♂️     | ✅ Completed  |      ✅       |    1 day     |
 
 ---
