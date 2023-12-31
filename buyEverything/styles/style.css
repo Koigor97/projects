@@ -75,6 +75,7 @@ header h1 {
 }
 
 /* Buttons */
+
 .btn {
   background-color: var(--color-primary1);
   color: #000;
@@ -89,6 +90,10 @@ header h1 {
 
 .btn:hover {
   background-color: var(--color-accent1);
+}
+
+.edit-mode-btn {
+  background-color: var(--color-3);
 }
 
 .btn-link {
@@ -142,6 +147,10 @@ header h1 {
 
 .edit-mode {
   color: #ccc;
+}
+
+.btn-bg {
+  background-color: var(--color-primary1);
 }
 
 .hideUI {
