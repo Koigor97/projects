@@ -5,14 +5,10 @@
 
   --color-primary1: #ffb703;
   --color-primary2: #606c38;
-  --color-primary3: #fefae0;
+  --color-3: #fefae0;
 
   --color-accent1: #f2bc34;
   --color-accent2: #7e895a;
-  --color-accent3: #c1bda6;
-
-  --btn-color1: #ccd5ae;
-  --btn-color2: #a7c957;
 
   --header-font: "Monoton", sans-serif;
   --body-font: "Quicksand", sans-serif;
@@ -30,7 +26,7 @@ body {
   font-family: var(--body-font);
   font-size: 16px;
   line-height: 1.5;
-  color: var(--color-primary3);
+  color: var(--color-3);
   background-color: var(--bg-color);
 }
 
@@ -42,7 +38,7 @@ header {
 }
 
 header h1 {
-  color: var(--color-primary3);
+  color: var(--color-3);
   font-family: var(--header-font);
   font-weight: 300;
   margin-left: 10px;
@@ -65,11 +61,8 @@ header h1 {
   outline: none;
 }
 
-.form-input:focus {
-  outline: 2px solid orange;
-}
-
 .form-input-filter {
+  color: var(--color-3);
   margin-top: 20px;
   width: 100%;
   font-size: 18px;
@@ -81,38 +74,11 @@ header h1 {
   outline: none;
 }
 
-.form-control:nth-child(3) {
-  margin-block-start: 1rem;
-}
-
-.checkbox-container label {
-  font-size: 1.2rem;
-}
-
-[type="checkbox"] {
-  width: 1.2rem;
-  height: 1.2rem;
-}
-
-.priority {
-  background-color: var(--color-primary3);
-}
-
-.filterBy {
-  background-color: var(--btn-color1);
-}
-
-.category {
-  background-color: var(--btn-color2);
-}
-
-.addBtn {
-  background-color: var(--color-primary1);
-}
-
 /* Buttons */
 .btn {
+  background-color: var(--color-primary1);
   color: #000;
+  font-size: 1rem;
   border: none;
   border-radius: 5px;
   padding: 10px 20px;
@@ -121,10 +87,14 @@ header h1 {
   margin-block-start: 1rem;
 }
 
+.btn:hover {
+  background-color: var(--color-accent1);
+}
+
 .btn-link {
   font-size: 16px;
   background-color: transparent;
-  color: var(--color-primary3);
+  color: var(--color-3);
   border: none;
   padding: 0;
   cursor: pointer;
@@ -135,7 +105,7 @@ header h1 {
   width: 100%;
   font-size: 16px;
   background-color: transparent;
-  color: var(--color-primary3);
+  color: var(--color-3);
   border: 1px solid #ccc;
   border-radius: 5px;
   padding: 10px 20px;
@@ -155,6 +125,7 @@ header h1 {
 .items {
   margin-top: 20px;
   display: flex;
+  /* justify-content: center; */
   flex-wrap: wrap;
 }
 
@@ -167,6 +138,14 @@ header h1 {
   padding: 10px 15px;
   margin: 0 5px 20px;
   font-weight: 700;
+}
+
+.edit-mode {
+  color: #ccc;
+}
+
+.hideUI {
+  display: none;
 }
 
 @media (max-width: 500px) {
