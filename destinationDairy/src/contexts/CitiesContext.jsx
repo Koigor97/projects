@@ -29,6 +29,15 @@ export function CitiesProvider({ children }) {
     fetchCities();
   }, []);
 
+  /**
+   *
+   * @param {string} id
+   * @returns {Promise<void>}
+   *
+   * @example
+   * getCityById("1");
+   */
+
   async function getCityById(id) {
     try {
       setIsLoading(true);
@@ -50,6 +59,11 @@ export function CitiesProvider({ children }) {
     </CitiesContext.Provider>
   );
 }
+
+/**
+ *
+ * @returns {CitiesContext}
+ */
 
 export function useCities() {
   return useContext(CitiesContext);
