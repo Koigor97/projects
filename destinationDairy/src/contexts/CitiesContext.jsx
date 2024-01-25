@@ -8,7 +8,7 @@ export function CitiesProvider({ children }) {
   const [isLoading, setIsLoading] = useState(false);
   const [currentCity, setCurrentCity] = useState({});
 
-  const URL = `http://localhost:8000`;
+  const URL = `http://localhost:8000/api/data`;
 
   // loading the cities data from the data file
   useEffect(function () {
